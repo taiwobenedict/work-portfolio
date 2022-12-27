@@ -15,12 +15,15 @@ function scroll(e) {
 
    const href = $(this).attr("href");
 
-   $("html, body").animate({ scrollTop: $(href).offset().top }, 1000);
+  $("html, body").animate({ scrollTop: $(href).offset().top }, 1000);
+   navBar.classList.remove("show");
 }
 window.addEventListener("scroll", function (e) {
-  if (Number(e.target.body.scrollTop) >= 100) {
+  if (Number(e.target.body.scrollTop) > 0) {
     navBar.classList.add("show-navbar-bg");
   } else navBar.classList.remove("show-navbar-bg");
+  this.document.getElementById('navigation').classList.remove('show')
+
 });
 
 toggler.addEventListener("click", function (e) {

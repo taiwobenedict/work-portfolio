@@ -182,7 +182,7 @@ body {
 /* About */
 
 #about {
-  padding-top: 100px;
+  padding-top: 50px;
 }
 
 #about .content {
@@ -201,7 +201,7 @@ body {
 /* Work */
 
 #work {
-  padding-top: 100px;
+  padding-top: 50px;
 }
 
 #work .card {
@@ -214,7 +214,7 @@ body {
 }
 
 #contact {
-  padding-top: 100px;
+  padding-top: 50px;
 }
 
 #contact .subtitle {
