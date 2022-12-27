@@ -1,0 +1,214 @@
+<html lang="en" style="scroll-behavior: smooth;">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+ <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+ <link rel="stylesheet" href="style.css">
+ <title>Taiwo</title>
+</head>
+<body>
+    <!-- Navigation -->
+    
+    <nav class="navbar navbar-expand-md fixed-top">
+        <div class="container">
+            <div class="navbar-toggler toggler" data-toggle="collapse" data-target="#navigation"><i class="fa fa-chevron-right fa-2x"></i></div>
+            <a href="#home" class="navbar-brand logo">Logo</a>
+            <div class="collapse navbar-collapse" id="navigation" style="transition: 0.5s;">
+                <ul class="navbar-nav ml-auto mt-3 mt-md-0">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#work" class="nav-link">Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main -->
+    <div class="container">
+        <div id="home">
+            <!-- Banner -->
+            <section id="banner">
+                <div class="content mt-5">
+                    <h1 class="heading">I'm Taiwo Ajayi</h1>
+                    <h4 class="subheading">A full-stack <span class="pri-color">Django</span> web developer.</h4>
+                    <a href="#work" class="mt-5 subtitle"><span>View my work</span><i class="fa fa-chevron-right"></i></a>
+                </div>
+            </section>
+        </div>
+
+        <!-- About -->
+        <section id="about" >
+            <h1 class="title" data-aos="fade-up">About</h1>
+            <div class="content row">
+                <div class="about-image  col-5 col-lg-4 order-lg-2" data-aos="fade-left">
+                    <img src="" alt="my-photo" class="image img-fluid" />
+                </div>
+                <div class="info col-lg-7 order-lg-1" data-aos="fade-right">
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel maxime non quod sint commodi necessitatibus officiis fugiat, accusamus vitae? Reprehenderit?</p>
+                    <a href="" download class="ex-link text"><i class="fa fa-download"></i> Download Resume</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Skills -->
+        <section id="skills">
+            <h3 class="subtitle" data-aos="fade-up">Featured Skills</h3>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-sm-6" data-aos="zoom-in">
+                            <ul class="card p-3 text">
+                                <h5>Frontend</h5>
+                                <div class="underline"></div>
+                                <li class="skill"><i class="fa fa-chevron-right"></i> HTML</li>
+                                <li class="skill"><i class="fa fa-chevron-right"></i> CSS</li>
+                                <li class="skill"><i class="fa fa-chevron-right"></i> Javascipt</li>
+                                <li class="skill"><i class="fa fa-chevron-right"></i> React</li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6"  data-aos="zoom-in">
+                            <ul class="card p-3 text">
+                                <h5>Backend</h5>
+                                <div class="underline"></div>
+                                <li class="skill"><i class="fa fa-chevron-right"></i> Python</li>
+                                <li class="skill"><i class="fa fa-chevron-right"></i> Django</li>
+                                <li class="skill"><i class="fa fa-chevron-right"></i> Postgres</li>
+                                <li class="skill"><i class="fa fa-chevron-right"></i> SQL</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-sm-6" data-aos="zoom-in">
+                            <ul class="card p-3 text tool-design-skills">
+                                <h5>Tools</h5>
+                                <div class="underline"></div>
+                                <li class="skill"><i class="fa fa-chevron-right"></i> Git</li>
+                                <li class="skill"><i class="fa fa-chevron-right"></i> Aws </li>
+                                <li class="skill"><i class="fa fa-chevron-right"></i> Firebase</li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6" data-aos="zoom-in">
+                            <ul class="card p-3 text tool-design-skills">
+                                <h5>Design</h5>
+                                <div class="underline"></div>
+                                <li class="skill"><i class="fa fa-chevron-right"></i> Adobe </li>
+                                <li class="skill"><i class="fa fa-chevron-right"></i> PhotoShop </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Work -->
+        <section id="work" >
+            <h1 class="title" data-aos="fade-up">Work</h1>
+            <h3 class="subtitle" data-aos="fade-up">Featured Projects</h3>
+            <!-- Project 1 -->
+            <div class="card row flex-row p-4 p-lg-0" data-aos="fade-left">
+                <div class="project-image col-lg-6 image px-0 order-lg-2">
+                    <img src="" alt="project-image-1" class="img-fluid">
+                </div>
+                <div class="info col-lg-6 order-lg-1">
+                    <h3 class="subtitle">Web One</h3>
+                    <div class="underline"></div>
+                    <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum nulla minima sequi debitis eveniet saepe dolorem consequuntur fugit. Facere, <span class="sec-color">optio!</span></p>
+                    <a href="" class="ex-link text"><i class="fa fa-chevron-right"></i> Source Code</a>
+                    <a href="" class="ex-link text"><i class="fa fa-chevron-right"></i> Visit Site</a>
+                </div>
+            </div>
+            
+            <!-- Project 2 -->
+            <div class="card row flex-row p-4 p-lg-0" data-aos="fade-right">
+                <div class="project-image col-lg-6 image px-0 order-lg-2">
+                    <img src="" alt="project-image-2" class="img-fluid">
+                </div>
+                <div class="info col-lg-6 order-lg-1">
+                    <h3 class="subtitle">Web Two</h3>
+                    <div class="underline"></div>
+                    <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum nulla minima sequi debitis eveniet saepe dolorem consequuntur fugit. Facere, <span class="sec-color">optio!</span></p>
+                    <a href="" class="ex-link text"><i class="fa fa-chevron-right"></i> Source Code</a>
+                    <a href="" class="ex-link text"><i class="fa fa-chevron-right"></i> Visit Site</a>
+                </div>
+            </div>
+            
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" >
+            <div class="content">
+                <h1 class="title" data-aos="fade-up">Contact Me</h1>
+                <p class="text" data-aos="fade-in">
+                    I'm interested in freelance opportunities. If you have other requests or questions, don't hesitate to <span class="sec-color">contact me.</span>
+                </p>    
+                <div class="row" data-aos="zoom-in">
+                    <div class="col-md-10 mt-5 mx-auto">
+                        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                            <div class="row">
+                                <div class="col-md-6 form-group">
+                                    <input type="text" name="name" class="card form-input text" id="name" placeholder="Your Name" required>
+                                </div>
+                                <div class="col-md-6 form-group mt-3 mt-md-0">
+                                    <input type="email" class="card form-input text" name="email" id="email" placeholder="Your Email" required>
+                                </div>
+                            </div>
+                            <div class="form-group mt-3">
+                                <input type="text" class="card form-input text" name="subject" id="subject" placeholder="Subject" required>
+                            </div>
+                            <div class="form-group mt-3">
+                                <textarea class="card form-input text" name="message" rows="5" placeholder="Message" required></textarea>
+                            </div>
+                            <!-- <div class="my-3">
+                                <div class="loading">Loading</div>
+                                 <div class="error-message"></div>
+                                 <div class="sent-message">Your message has been sent. Thank you!</div>
+                            </div> -->
+                            <div ><button type="submit" class="btn text">Send Message <i class="fa fa-paper-plane"></i></button></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-8 justify-content-center align-items-center mx-auto">
+                    <div class="social-links d-flex justify-content-center align-items-center">
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a >
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a >
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a >
+                        <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a >
+                    </div>
+
+                    <p class="text-center">TAIWO AJAYI <span class="sec-color">&copy;2023</span></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
+
