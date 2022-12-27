@@ -36,7 +36,6 @@ body {
   background-color: var(--bg-color);
   color: var(--light);
   font-family: "IBM Plex Mono", monospace;
-  overflow-x: hidden;
 }
 
 /* Utilities */
