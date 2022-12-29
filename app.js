@@ -1,6 +1,8 @@
 const navBar = document.querySelector(".navbar");
 const toggler = document.querySelector(".toggler");
 const navBarNav = document.querySelector(".navbar-collapse");
+const themeBtn = document.getElementById('switch');
+const modeText = document.querySelector('.mode')
 
 // Fade in effects
 AOS.init({
@@ -30,4 +32,19 @@ document.body.onscroll = function () {
     navBar.classList.remove("show-navbar-bg");
   } else navBar.classList.add("show-navbar-bg");
 }
+
+// Theme mode
+ $("#switch").on("click", () => {
+   if ($("#switch").prop("checked")) {
+     document.documentElement.setAttribute("data-theme", "light");
+     modeText.innerText = 'Dark'
+   } else {
+     document.documentElement.setAttribute("data-theme", "dark");
+     modeText.innerText = 'Light'
+   }
+ });
+
+if (document.body.scrollTop != 0) {
+   navBar.classList.add("show-navbar-bg");
+ }
 
