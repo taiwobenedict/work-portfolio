@@ -13,7 +13,14 @@ AOS.init({
 $("nav a").on("click", function (e) {
   e.preventDefault();
   const href = $(this).attr("href");
-  $("html, body").animate({ scrollTop: $(href).offset().top }, 1000);
+  $("html, body").animate({ scrollTop: $(href).offset().top }, 500);
+});
+
+// Smooth scrolling
+$("#home a").on("click", function (e) {
+  e.preventDefault();
+  const href = $(this).attr("href");
+  $("html, body").animate({ scrollTop: $(href).offset().top }, 500);
 });
 
 

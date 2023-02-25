@@ -1,21 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Raleway:wght@100;700&display=swap");
 
 :root {
+  --bg-image: url('images/backgroundimage1.jpg') center center/cover no-repeat;
   --bg-color: #f5f5f5;
   --light: #2b2b2b;
   --dark: #f5f5f5;
   --primary: #003e52;
   --highlight: #af3a03;
   --text-margin: 10px;
+  --overlay: #f4f4f4;
 }
 
 [data-theme="light"] {
+  --bg-image: url('images/backgroundimage.jpg') center center/cover no-repeat;
   --bg-color: #2b2b2b;
   --light: #f5f5f5;
   --dark: #1f1f1f;
   --primary: #82a698;
   --highlight: #82a698;
-  --text-margin: 0px
+  --text-margin: 0px;
+  --overlay : #202020;
 }
 
 html {
@@ -175,8 +179,8 @@ body {
 }
 
 /* Home */
-/* #home {
- 
+#home {
+ background: var(--bg-image)
 }
 
 #home::before {
@@ -186,8 +190,9 @@ body {
   width: 100%;
   height: 100%;
   content: "";
-  background-color: rgba(31, 31, 31, 0.8);
-} */
+  background-color: var(--overlay);
+  opacity: 0.8;
+}
 
 /* Banner */
 #banner {
@@ -428,3 +433,4 @@ body {
   margin-left: var(--text-margin);
   font-weight: bold;
 }
+
