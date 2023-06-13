@@ -435,3 +435,6 @@ body {
   font-weight: bold;
 }
 
+.feedback {
+  display: none
+}
