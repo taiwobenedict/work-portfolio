@@ -55,20 +55,3 @@ if (document.body.scrollTop != 0) {
    navBar.classList.add("show-navbar-bg");
 }
  
-const email = document.getElementById('email')
-const subject = document.getElementById('subject')
-const name = document.getElementById('name')
-const message = document.getElementById('message')
-
-
-//  Mailing
-Email.send({
-  Host: "smtp.elasticemail.com",
-  Username: "username",
-  Password: "password",
-  To: "them@website.com",
-  From: email.value,
-  Subject: "This is the subject",
-  Body: "Name: " + name.value + "<br> Subject: " + subject.value + "<br> Message: " + message.value
-}).then((message) => alert(message));
-
