@@ -435,6 +435,8 @@ body {
   font-weight: bold;
 }
 
-.feedback {
-  display: none
+#sending,
+#sent,
+#not-sent {
+  display: none;
 }
